@@ -109,8 +109,6 @@ const initMap = new Promise((resolve, reject) => {
       isOpen: true,
     })
     map.addControl(overView);
-
-
     //操作成功
     resolve()
   }).catch(e => {
