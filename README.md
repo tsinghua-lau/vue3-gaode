@@ -4,7 +4,6 @@
 > 使用高德提供的 JSAPI Loader API加载器
 
 高德文档：[官方文档](https://lbs.amap.com/api/jsapi-v2/guide/webcli/map-vue1)
-## Recommended IDE Setup
 
 ## 运行项目
 ```
