@@ -10,7 +10,7 @@
 # 安装依赖
 npm install
 # 运行项目
-npm run serve
+npm run dev
 ```
 ## 实现功能
  - 地图引入
