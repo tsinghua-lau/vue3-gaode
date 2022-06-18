@@ -18,5 +18,6 @@ npm run dev
  - 异步加载：定位插件、图层切换插件、热地图插件、行政区查询及边界绘制插件
 
 ## Demo 效果图
+![image](https://user-images.githubusercontent.com/43164478/174425505-5ffdd6d1-5abe-45e1-86c9-e7b2dc786363.png)
 
 
