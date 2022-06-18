@@ -19,4 +19,4 @@ npm run dev
 
 ## Demo 效果图
 
-![img](./public/img.png)
+
