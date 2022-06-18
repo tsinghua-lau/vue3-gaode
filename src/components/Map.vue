@@ -1,4 +1,5 @@
 <template>
+
   <!-- 高德地图容器 -->
   <div id="container"></div>
   <ul id="controller">
@@ -16,6 +17,9 @@ window._AMapSecurityConfig = {
   //这里的安全密钥不写会导致 行政区查询等API无法使用
   securityJsCode: `${MapSecretKey}`,
 }
+
+import { useRouter } from 'vue-router';
+const router = useRouter();
 
 //高德API加载器 安装命令： npm i @amap/amap-jsapi-loader
 import AMapLoader from '@amap/amap-jsapi-loader'
@@ -75,7 +79,12 @@ var district
 //行政区边界数据暂存
 var polygons = []
 
-
+const nextDemo = ()=>{
+ console.log(111);
+  router.push({
+    path:'/'
+  })
+}
 // 初始化地图函数
 const initMap = new Promise((resolve, reject) => {
   AMapLoader.load({
